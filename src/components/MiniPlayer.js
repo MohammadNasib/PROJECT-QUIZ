@@ -1,6 +1,5 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import ReactPlayer from 'react-player/youtube';
-import { useRef } from 'react/cjs/react.development';
 import classes from '../styles/MiniPlayer.module.css';
 
 export default function MiniPlayer({ title, id }) {
